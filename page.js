@@ -481,7 +481,7 @@ pathToRegexp_1.tokensToRegExp = tokensToRegExp_1;
       _window.document.removeEventListener(clickEvent, this.clickHandler, false);
     }
 
-    if(this._hashbang && hasWindow && !hasHistory) {
+    if(this._hashbang && hasWindow) {
       _window.addEventListener('hashchange', this._onpopstate, false);
     } else if(hasWindow) {
       _window.removeEventListener('hashchange', this._onpopstate, false);
@@ -1081,7 +1081,7 @@ pathToRegexp_1.tokensToRegExp = tokensToRegExp_1;
     this.canonicalPath = path;
     var re = new RegExp('^' + escapeRegExp(pageBase));
     this.path = path.replace(re, '') || '/';
-    if (hashbang) this.path = this.path.replace('#!', '') || '/';
+    if (hashbang) this.path = this.path.replace(/^\/?#!/, '') || '/';
 
     this.title = (hasDocument && window.document.title);
     this.state = state || {};
