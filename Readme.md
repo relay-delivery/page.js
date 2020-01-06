@@ -1,7 +1,7 @@
  ![page router logo](http://f.cl.ly/items/3i3n001d0s1Q031r2q1P/page.png)
 
 Tiny Express-inspired client-side router.
-
+[![Sauce Test Status](https://saucelabs.com/buildstatus/mchevett2)](https://app.saucelabs.com/u/mchevett2)
  [![Build Status](https://travis-ci.org/visionmedia/page.js.svg?branch=master)](https://travis-ci.org/visionmedia/page.js)
 [![Coverage Status](https://coveralls.io/repos/visionmedia/page.js/badge.svg?branch=master)](https://coveralls.io/r/visionmedia/page.js?branch=master)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/visionmedia/page.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
