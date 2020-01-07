@@ -6,6 +6,12 @@ Tiny Express-inspired client-side router.
 [![Coverage Status](https://coveralls.io/repos/visionmedia/page.js/badge.svg?branch=master)](https://coveralls.io/r/visionmedia/page.js?branch=master)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/visionmedia/page.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+### Big Thanks
+
+Cross-browser Testing Platform and Open Source ❤️ provided by [Sauce Labs][homepage]
+
+[homepage]: https://saucelabs.com
+
 ```js
 page('/', index)
 page('/user/:user', show)
